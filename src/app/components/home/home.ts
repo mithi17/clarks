@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterLink, Router } from '@angular/router';
 import { About } from '../about/about';
-import { Ourproduct } from '../ourproduct/ourproduct';
-import { Segments } from '../segments/segments'; 
+// import { Ourproduct } from '../ourproduct/ourproduct';
+// import { Segments } from '../segments/segments'; 
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [About, Ourproduct, Segments], // Remove Segments
+  imports: [], // Remove Segments About, Ourproduct, Segments
   templateUrl: './home.html',
   styleUrls: ['./home.css']
 })
